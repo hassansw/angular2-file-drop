@@ -6,20 +6,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { NgModule } from '@angular/core';
 import { FileDropDirective } from './file-drop';
-var FileDropModule = (function () {
+var FileDropModule = /** @class */ (function () {
     function FileDropModule() {
     }
+    FileDropModule = __decorate([
+        NgModule({
+            imports: [],
+            declarations: [
+                FileDropDirective,
+            ],
+            providers: [],
+            exports: [FileDropDirective],
+        })
+    ], FileDropModule);
     return FileDropModule;
 }());
-FileDropModule = __decorate([
-    NgModule({
-        declarations: [
-            FileDropDirective,
-        ],
-        exports: [FileDropDirective],
-        imports: [],
-        providers: [],
-    })
-], FileDropModule);
 export { FileDropModule };
 //# sourceMappingURL=file-drop-module.js.map

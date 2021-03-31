@@ -20,10 +20,7 @@ export class FileDropDirective {
   @Input() public options: Options;
 
   private element: ElementRef;
-
-  public constructor(
-    element: ElementRef
-  ) {
+  public constructor(element: ElementRef) {
     this.element = element;
   }
 

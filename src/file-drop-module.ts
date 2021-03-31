@@ -1,12 +1,12 @@
-import {NgModule} from '@angular/core';
-import {FileDropDirective} from './file-drop';
+import { NgModule } from '@angular/core';
+import { FileDropDirective } from './file-drop';
 
 @NgModule({
+  imports: [],
   declarations: [
     FileDropDirective,
   ],
-  exports: [FileDropDirective],
-  imports: [],
   providers: [],
+  exports: [FileDropDirective],
 })
-export class FileDropModule {}
+export class FileDropModule { }
