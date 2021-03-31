@@ -2,6 +2,8 @@
 
 Angular2 component with Drag and Drop support for files
 
+Note: this fork adds the support for angular 9+
+
 ## Install
 
 ```bash
